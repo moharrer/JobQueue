@@ -10,9 +10,9 @@ namespace JobQueue
 @" *****************************************Senario*****************************************
    * job list is in JobCollection.cs and Http call simulation int FakeHttpService.cs
    * Express category: 
-   * HttpCall after occure after 5 seconds
-   * Default is  5 thread and can configurable
-   * Failure retry count is 3 and configurable
+   * HttpCall occure after 5 seconds
+   * Default is  5 thread and can be configurable
+   * Failure retry count is 3 and be configurable
    * job1 must fail after 3 time retry
    * job 1 & job2 & job3 have same entity name then executing order is by creation time (job1, job2, job3)
    * job 1 is depend on job9 
