@@ -8,7 +8,7 @@ namespace JobQueue
         public void Execute(Job job)
         {
             //job1 failed inorder to testing job retry 
-            if (job.PayLoad == "payload: job1")
+            if (job.PayLoad == "payload: Express job1")
             {
                 throw new Exception();
             }
